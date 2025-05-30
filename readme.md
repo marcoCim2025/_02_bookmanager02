@@ -1,6 +1,7 @@
 # Bookmanager mit Spring JPA
-## Version0.2
+## Version0.4
 
+* mit RestAPI
 
 ### Konfiguration
 * resources/application.properties
@@ -13,3 +14,6 @@
 
 ### Test
 *BookmanagerApplication: CommandLineRunner
+
+### Service
+
