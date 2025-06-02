@@ -75,7 +75,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Book findMitIsbn(String isbn) {
+    public Book getByIsbn(String isbn) {
         return repository.findByIsbnIgnoreCase(isbn);
     }
 

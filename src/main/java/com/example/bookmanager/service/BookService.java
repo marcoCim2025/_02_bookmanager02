@@ -27,5 +27,5 @@ public interface BookService {
 
     Book updateById(int id, Book book);
 
-    Book findMitIsbn(String isbn);
+    Book getByIsbn(String isbn);
 }

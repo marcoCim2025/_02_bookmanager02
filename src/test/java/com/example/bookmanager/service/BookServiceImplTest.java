@@ -60,13 +60,13 @@ class BookServiceImplTest {
 
     @Test
     void findMitISBN() {
-        Book b = bookService.findMitIsbn("skjfdki");
+        Book b = bookService.getByIsbn("skjfdki");
         System.out.println(b);
 
-        Book b1 = bookService.findMitIsbn("Update_2 ISBN");
+        Book b1 = bookService.getByIsbn("Update_2 ISBN");
         System.out.println(b1);
 
-        Book b2 = bookService.findMitIsbn("update_2 Isbn");
+        Book b2 = bookService.getByIsbn("update_2 Isbn");
         System.out.println(b1);
     }
 }
